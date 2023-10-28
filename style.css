@@ -23,3 +23,23 @@ h2{
     color: red;
     font-size: x-large;
 }
+@keyframes color-change {
+    0% {
+      color: rgb(86, 7, 12);
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: rgb(86, 7, 12);
+    }
+}
+
+h1:hover  {
+    animation: color-change 2s infinite;
+}
+h2:hover {
+    animation: color-change 2s infinite;
+    }
